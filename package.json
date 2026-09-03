@@ -2,17 +2,17 @@
   "name": "st-ia",
   "private": true,
   "version": "0.1.0",
-  "description": "ST-IA — local-first macOS subtitle generator",
+  "description": "SOMYUREN — local-first macOS subtitle generator",
   "author": "Romain Bourbon",
   "license": "MIT",
   "packageManager": "pnpm@10.34.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/romuhica73/ST-IA.git"
+    "url": "git+https://github.com/romuhica73/Somyuren-Community.git"
   },
-  "homepage": "https://github.com/romuhica73/ST-IA#readme",
+  "homepage": "https://github.com/romuhica73/Somyuren-Community#readme",
   "bugs": {
-    "url": "https://github.com/romuhica73/ST-IA/issues"
+    "url": "https://github.com/romuhica73/Somyuren-Community/issues"
   },
   "type": "module",
   "scripts": {

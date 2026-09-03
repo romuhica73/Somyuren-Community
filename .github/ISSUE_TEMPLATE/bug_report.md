@@ -1,6 +1,6 @@
 ---
 name: Rapport de bug
-about: Un comportement incorrect de ST-IA
+about: Un comportement incorrect de SOMYUREN
 labels: bug
 ---
 
@@ -13,7 +13,7 @@ labels: bug
 2.
 
 **Environnement**
-- Version ST-IA (Réglages → À propos) :
+- Version SOMYUREN (Réglages → À propos) :
 - macOS :
 - Mac (M1/M2/M3/M4) :
 
