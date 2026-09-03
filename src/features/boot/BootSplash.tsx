@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import "./bootSplash.css";
+import { PRODUCT_NAME } from "../../brand";
 
 /** The container animation's name, matched by `animationend` so the
  * decorative child animations do not end the boot phase early. */
@@ -71,7 +72,7 @@ export function BootSplash({ onFinished }: BootSplashProps) {
           <span className="lines__line" />
         </div>
       </div>
-      <p className="boot-splash__wordmark">ST-IA</p>
+      <p className="boot-splash__wordmark">{PRODUCT_NAME}</p>
     </div>
   );
 }

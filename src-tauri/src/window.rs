@@ -37,7 +37,7 @@ const BOOT_BG_DARK: Color = Color(26, 28, 32, 255);
 /// place on the first frame the user actually sees.
 pub fn create(app: &AppHandle, settings: &Settings, size: shell::Size) -> tauri::Result<()> {
     let window = WebviewWindowBuilder::new(app, MAIN_LABEL, WebviewUrl::App("index.html".into()))
-        .title("ST-IA")
+        .title("SOMYUREN")
         .inner_size(size.width, size.height)
         .resizable(false)
         .center()

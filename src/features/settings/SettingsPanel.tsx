@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { PRODUCT_NAME } from "../../brand";
 import { useAppVersion } from "./useAppVersion";
 import { SettingChoice } from "./SettingChoice";
 import { AiModels } from "./AiModels";
@@ -167,7 +168,7 @@ export function SettingsPanel({
 
           {section === "about" && (
             <div className="about-group">
-              <p className="settings-panel__app-name">ST-IA</p>
+              <p className="settings-panel__app-name">{PRODUCT_NAME}</p>
               {version && (
                 <p className="model-gate__subtitle">{t("about.version", { version })}</p>
               )}
